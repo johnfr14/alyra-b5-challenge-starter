@@ -53,11 +53,10 @@
       <div class="container">
         <div class="row">
 
+          <h1 class="fw-bold" style="font-family: 'Libre Baskerville', sans-serif;">Latest Post</h1>
           <main class="col-lg-9">
             <div class="container">
               <div class="row">
-
-                <h1 class="fw-bold" style="font-family: 'Libre Baskerville', sans-serif;">Latest Post</h1>
 
                 <article class="col-sm-12 col-md-6 col-lg-4">
                   <div class="p-0 m-0 bg-body rounded shadow">
@@ -197,33 +196,69 @@
         <!-----------------------INPUT SEARCH : Denis------------>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">@</span>
+                <button class="btn btn-outline-secondary bg-light text-muted" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg></button>
               </div>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" placeholder="Search here..." aria-label="" aria-describedby="basic-addon1">
             </div>
 
-        <!----David + Popular post + Categories : Romain-------->
-
-            <div class="popularPosts">
-              <h5>Popular Posts</h5>
-              <div>
-                <ul class="list-group mb-0">
-                  <li class="list-group-item">
-                    <img src="images/img_2.jpg" alt="pot de fleur Hello Cactus">
-                    <span>March 15,2018</span>
-                    <p>How to Find the Video Game of Your Youth</p>
-                  </li>
-                  <li class="list-group-item">
-                    <img src="images/img_4.jpg" alt="Cameleon">
-                    <span>March 15,2018</span>
-                    <p>How to Find the Video Game of Your Youth</p>
-                  </li>
-                  <li class="list-group-item">
-                    <img src="images/img_12.jpg" alt="Paradis">
-                    <span>March 15,2018</span>
-                    <p>How to Find the Video Game of Your Youth</p>
-                  </li>
-                </ul>
+        <!----Categories : Romain-------->
+        <!--------------------------David Craig------------------------->
+            <div class="text-center shadow p-3" style="font-family: Libre Baskerville, sans-serif">
+              <img class="rounded-circle p-3 img-fluid "src="images/person_1.jpg" alt="David Craig">
+              <h5 class="fw-bold">David Craig</h5>
+              <p> Lorm ipsum dolor sit amet,
+                consectetur adipisicing elit.
+                Exercitationem facilis sunt
+                repellendus exepturi beatae
+                porro debitis volupstate nulla quo
+                veniam fuga sit molestias minus
+              </p>
+              <button type="submit" class="btn btn-dark">Read my bio</button>
+              <a href="=https://facebook.com" aria-label="Site Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com" aria-label="Site Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com" aria-label="Site Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://youtube.com" aria-label="Site Youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+          <!------------------Popular Posts----------------------->
+            <div class="shadow my-5">
+              <div class="p-2 m-0 bg-body row">
+                <h3>Popular Posts</h5>
+                <div class="col-6">
+                  <img class="img-fluid" max-width="100%" height="auto" src="images/img_2.jpg" alt="Paul prend une photo"
+                    width="300" />
+                </div>
+                <div class="col-6">
+                  <p class="text-end text-muted fs-9">March 15, 2020</p>
+                  <p class="fw-bold text-center " style="font-family: 'Libre Baskerville', sans-serif;">How to Find the Video
+                    Games of Your Youth</p>
+                </div>
+              </div>
+              <hr>
+              <div class="p-0 m-0 bg-body row">
+                <div class="col-6">
+                <img class="img-fluid" max-width="100%" height="auto" src="images/img_4.jpg" alt="Paul prend une photo" width="300" />
+                </div>
+                <div class="col-6">
+                  <p class="text-end text-muted fs-9">March 15, 2020</p>
+                  <p class="fw-bold text-center " style="font-family: 'Libre Baskerville', sans-serif;">How to Find the Video
+                    Games of Your Youth</p>
+                </div>
+              </div>
+              <hr>
+              <div class="p-0 m-0 bg-body row">
+                <div class="col-6">
+                  <img class="img-fluid" max-width="100%" height="auto" src="images/img_7.jpg" alt="Paul prend une photo"
+                    width="300" />
+                </div>
+                <div class="col-6">
+                  <p class="text-end text-muted fs-9">March 15, 2020</p>
+                  <p class="fw-bold text-center " style="font-family: 'Libre Baskerville', sans-serif;">How to Find the Video
+                    Games of Your Youth</p>
+                </div>
               </div>
             </div>
 
@@ -233,7 +268,9 @@
         </div>
       </div>
     </body>
-    <footer class="bg-secondary text-white text-center p-2 m-0">
+
+
+    <footer class="bg-dark text-white text-center p-5 m-0">
       <p> &copy; 2020 Made with <svg role="img" aria-label="love" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
           fill="currentColor" class="bi bi-suit-heart-fill text-danger" viewBox="0 0 16 16">
           <path
@@ -242,22 +279,3 @@
     
     </footer>
   </html>
-
-<!-- carousel-->
-big_image_1.jpg
-<!---->
-big_image_3.jpg
-<!---->
-img_3.jpg
-<!---->
-Sports
-<!---->
-How to Find the Video Games of Your Youth
-<!---->
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
-eaque ipsa laudantium!
-<!---->
-Categories : Food (12) Travel (22) Lifestyle (37) Business (42) Adventure (14)
-<!---->
-Tags : Travel Adventure Food Lifestyle Business Freelancing Travel Adventure
-Food Lifestyle Business Freelancing

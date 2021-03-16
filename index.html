@@ -10,6 +10,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300&display=swap"
         rel="stylesheet">
         <!-- CSS only -->
+      <link rel="stylesheet" href="./style.css" />
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
       <title>Alyra-Mag | Home</title>
@@ -19,13 +20,13 @@
       <header>
         <!--------------------------NAVIGATION------------------------>
         <h1 class="text-center m-5" style="font-family: Libre Baskerville, sans-serif"><a class=" text-dark navbar-brand text-secondary fs-1 fw-bold" href="index.html">AlyraMag</a></h1>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+          <div class="container-fluid ">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center sticky-top" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="blog-single.html" id="navbarDropdown">Travel</a></li>
@@ -261,42 +262,27 @@
             </div>
             
             <!------------------------------------code post-popular-------------------------------------------------->
-            
-            <div class="p-3 shadow mb-4">
-              <h2 style="font-family: 'Libre Baskerville', sans-serif;" class="fs-5 pb-2">Popular Posts</h2>
-              <ul class="list-group ">
-                <li class="list-group-item d-flex px-0 py-2">
-                  <a class="mr-2" href="#">
-                    <img src="images/img_2.jpg" class="img-fluid" alt="pot de fleur Hello Cactus" width="200" />
-                  </a>
-                  <div>
-                    <span class="text-secondary ps-1">March 15, 2018 </span>
-                    <h6 style="font-family: 'Libre Baskerville', sans-serif;" class="ps-1 pt-3">How to Find the Video Games
-                      of Your Youth</h5>
-                  </div>
-                </li>
-                <li class="list-group-item d-flex px-0 py-2">
-                  <a class="mr-2" href="#">
-                    <img src="images/img_4.jpg" class="img-fluid" alt="Cameleon" width="200" />
-                  </a>
-                  <div>
-                    <span class="text-secondary ps-1">March 15, 2018 </span>
-                    <h6 style="font-family: 'Libre Baskerville', sans-serif;" class="ps-1 pt-3">How to Find the Video Games
-                      of Your Youth</h5>
-                  </div>
-                </li>
-                <li class="list-group-item d-flex px-0 py-2">
-                  <a class="mr-2" href="#">
-                    <img src="images/img_12.jpg" class="img-fluid" alt="Paradis" width="200" />
-                  </a>
-                  <div>
-                    <span class="text-secondary ps-1">March 15, 2018 </span>
-                    <h6 style="font-family: 'Libre Baskerville', sans-serif;" class="ps-1 pt-3">How to Find the Video Games
-                      of Your Youth</h5>
-                  </div>
-                </li>
-              </ul>
+        
+            <div class="shadow p-3 mb-5 bg-body rounded">
+              <h2 style="font-family: 'Libre Baskerville', sans-serif;" class="text-bold pt-3 pb-2 fs-5">Popular Posts</h2>
+              <img class="float-start p-2 fw-bold" src="images/img_2.jpg" alt="..." width="120rem" height="100%">
+              <p class="card-text ps-5"><small class="text-muted">March 15, 2020</small></p>
+              <P style="font-family:'Libre Baskerville',sans-serif; font-size: 0.8rem;" class="card-title  ps-5">How to Find the
+                Video Games of Your Youth</p>
+              <hr>
+              <img class="float-start p-2 fw-bold" src="images/img_4.jpg" alt="..." width="120rem" height="100%">
+              <p class="card-text ps-5"><small class="text-muted">March 15, 2020</small></p>
+              <P style="font-family:'Libre Baskerville',sans-serif; font-size: 0.8rem;" class="card-title  ps-5">How to Find the
+                Video Games of Your Youth</p>
+              <hr>
+              <img class="float-start p-2 fw-bold" src="images/img_12.jpg" alt="..." width="120rem" height="100%">
+              <p class="card-text ps-5"><small class="text-muted">March 15, 2020</small></p>
+              <P style="font-family:'Libre Baskerville',sans-serif; font-size: 0.8rem;" class="card-title  ps-5">How to Find the
+                Video Games of Your Youth</p>
             </div>
+
+
+
             
             <!---- Categorie : Stella  ------->
             
